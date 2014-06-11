@@ -1471,7 +1471,8 @@ shp/%: zip/%.zip
 	unzip -d $@ $<
 	touch $@
 
-topojson/%.json: shp/$(dir %)
+topojson/%.json:
+	$(MAKE) shp/$(patsubst %/,%,$(dir $*))
 	mkdir -p $(dir $@)
 	$(TOPOJSON) -o $@ -p -- shp/$(dir $*)$(patsubst %/,%,$(dir $*))_adm$(notdir $*).shp
 
