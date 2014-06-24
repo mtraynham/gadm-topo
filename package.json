@@ -2,7 +2,7 @@
     "author": "Matt Traynham",
     "name": "gadm-topo",
     "version": "1.0.0",
-    "description": "Converted gadm shape files to topojson",
+    "description": "Converted GADM shapefiles to TopoJSON",
     "repository": {
         "type": "git",
         "url": "git://github.com/mtraynham/gadm-topo.git"

@@ -1,7 +1,7 @@
 gadm-topo
 =========
 
-[Global Administrative Areas](http://gadm.org/)'s shapefiles converted to topoJson
+[Global Administrative Areas](http://gadm.org/)'s shapefiles converted to TopoJSON
 
 Building this project
 =====================
