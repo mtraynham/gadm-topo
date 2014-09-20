@@ -3,7 +3,9 @@ gadm-topo
 
 [Global Administrative Areas](http://gadm.org/)'s shapefiles converted to TopoJSON
 
-GADM's license is hella complicated, but you can ask for commercial use:
+GADM's [license (latest?)](http://www.ncl.ucar.edu/Training/Workshops/CERFACS/Data/Shapefiles/FRA_adm/read_me.pdf) is hella complicated. 
+
+Please contact them if you plan on commercial usage.
 
 http://gadm.org/contact
 
