@@ -1463,7 +1463,7 @@ ZWE: \
 
 zip/%.zip:
 	mkdir -p $(dir $@)
-	curl "http://data.biogeo.ucdavis.edu/data/gadm2/shp/$*_adm.zip" -o $@.download
+	curl "https://biogeo.ucdavis.edu/data/gadm3.6/shp/gadm36_$*_shp.zip" -o $@.download
 	mv $@.download $@
 
 shp/%: zip/%.zip
